@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header a {
     text-decoration: none;
     color:#fce138;
@@ -14,12 +19,17 @@ header {
 }
 
 header h1 {
+    font-weight: bold;
+    font-size: 36px;
     color: #fce138;
+    margin: 0;
+    display: inline;
     text-decoration: underline;
 }
 
 header h2 {
-    font-weight: bold;
+    font-weight: normal;
+    text-decoration: underline;
     font-size: 36px;
     color: #fce138;
     margin: 0;
@@ -34,3 +44,8 @@ header nav ul li {
     display: inline;
 }
 
+header nav ul li a {
+    margin: 0 30 px;
+    font-weight: lighter;
+    font-size: 22px;
+}
