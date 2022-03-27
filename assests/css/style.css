@@ -1,4 +1,4 @@
-#anchor {
+header a {
     text-decoration: none;
     color:#fce138;
 }
@@ -29,3 +29,8 @@ header nav {
     float: right; 
     margin: 7PX 0;
 }
+
+header nav ul li {
+    display: inline;
+}
+
