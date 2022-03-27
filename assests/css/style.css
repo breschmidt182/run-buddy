@@ -1,4 +1,7 @@
-#anchor {color:#fce138;}
+#anchor {
+    text-decoration: none;
+    color:#fce138;
+}
 
 body {
     color: #39a6b2;
@@ -20,4 +23,9 @@ header h2 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+}
+
+header nav {
+    float: right; 
+    margin: 7PX 0;
 }
