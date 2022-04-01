@@ -12,6 +12,16 @@
     border-color: #39a6b2;
 }
 
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    display:inline-block; 
+    text-align: center;
+}
+
 .text-left {
     text-align: left;
 }
@@ -155,7 +165,6 @@ section {
 
 .intro h2 {
     font-size: 55px;
-    color: #024e76;
     margin-bottom: 35px;
     Padding: 0 100 px 20px 100px;
     border-bottom: 3px solid;
@@ -174,11 +183,7 @@ section {
     background: #fce138;
 }
 .steps h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
+   border-bottom-color: #39a6b2;
 }
 
 .steps div {
@@ -243,3 +248,4 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
+
