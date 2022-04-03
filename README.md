@@ -12,3 +12,5 @@ https://breschmidt182.github.io/run-buddy2/
 
 ## Contribution
 Made with ❤️ by Bre Schmidt
+
+### ©️2019 Run Buddy, Inc 
