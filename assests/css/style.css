@@ -28,18 +28,16 @@ header h1 {
     display: inline;
 }
 
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
+header a {
+    text-decoration: none;
     color: #fce138;
-    margin: 0;
 }
 
 header nav {
     margin: 7PX 0;
 }
 
-header nav ul li {
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -141,12 +139,13 @@ section {
 }
 
 .hero-form label {
-    margin: 0;
+    margin: 0 5px;
 }
 
 .hero-form button {
     color:#fce138;
     background-color: #024e76;
+    border: none;
     padding: 10px 20px;
     font-size: 16px;
 }
@@ -160,8 +159,11 @@ section {
     text-align: center;
 }
 
-.step {
+.steps {
     background: #fce138;
+}
+
+.step {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
@@ -174,21 +176,34 @@ section {
 
 .step-info {
     flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .step-img {
-    width: 300px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
 }
 
 .step h3 {
-    line-height: 1.5;
     color: #024e76;
     font-size: 46px;
     flex: 1 30%;
-    border-bottom-color: #39a6b2;
+}
+
+.step-text {
+    flex: 12;
 }
 
 .step-text p {
@@ -197,8 +212,11 @@ section {
 }
 
 .trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
     border-bottom: 3px solid #fce138;
-    margin-left: 120px;
 }
 
 .trainer {
@@ -240,7 +258,8 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    border-bottom: 3px solid #fce138;
+    border-bottom: 3px solid;
+    color: #024e76;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -258,12 +277,10 @@ section {
 }
 .primary-border {
     border-color: #fce138;
-    display: inline-block;
 }
 
 .secondary-border {
     border-color: #39a6b2;
-    display: inline-block;
 }
 
 .contact-info iframe {
